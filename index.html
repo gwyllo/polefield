@@ -7,7 +7,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -47,26 +46,6 @@
 <input type="file" id="fileSvg" class="hidden-file" accept=".svg,image/svg+xml">
 <input type="file" id="fileImg" class="hidden-file" accept="image/png,image/jpeg,image/webp">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
-<!-- App scripts: plain (non-module) scripts sharing one global scope, loaded in dependency order. -->
-<script src="js/core/util.js"></script>
-<script src="js/core/config.js"></script>
-<script src="js/field/field.js"></script>
-<script src="js/field/sketch-input.js"></script>
-<script src="js/render/scene.js"></script>
-<script src="js/render/pole-material.js"></script>
-<script src="js/render/field-viz.js"></script>
-<script src="js/model/generate.js"></script>
-<script src="js/render/meshes.js"></script>
-<script src="js/analysis/fea.js"></script>
-<script src="js/render/display.js"></script>
-<script src="js/interaction/painting.js"></script>
-<script src="js/analysis/assembly.js"></script>
-<script src="js/fabrication/fabrication.js"></script>
-<script src="js/ui/chrome.js"></script>
-<script src="js/ui/panels.js"></script>
-<script src="js/ui/import.js"></script>
-<script src="js/main.js"></script>
+<script type="module" src="/src/main.ts"></script>
 </body>
 </html>
